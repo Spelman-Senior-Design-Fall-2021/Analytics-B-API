@@ -1,0 +1,6 @@
+happytransformer
+flask
+nltk
+numpy
+pandas
+sklearn
