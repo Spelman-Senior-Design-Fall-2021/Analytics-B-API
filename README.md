@@ -10,3 +10,4 @@ Accepts an HTTP POST request with JSON mapping a query_id to a value generated b
 ### Development
 - Work on branch then execute PR to merge in changes
 - Server can be tested locally with ***flask run***
+- Pushes to main are deployed on digital ocean

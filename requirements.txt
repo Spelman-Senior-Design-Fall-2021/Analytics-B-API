@@ -1,5 +1,6 @@
 # happytransformer
 flask
+gunicorn
 nltk
 numpy
 pandas
