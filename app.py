@@ -34,18 +34,19 @@ def run_models(id, data):
     
     # result info
     results = {"query_id": id,
-               "sentiment": [],
-               "political": []
+               "results": []
                }
     
     # run models
     for d in data:
       text = d["clean_text"]
       url = d["url"]
-      results["sentiment"].append({"url": url})
-      results["political"].append({"url": url})
       
-      results["sentiment"].append(sentiment.run(text))
-      results["political"].append(political.run(text))
+      res = {}
+      res["url"] = url      
+      res["sentiment"] = sentiment.run(text)
+      res["political"] = political.run(text)
+      
+      results["results"].append(res) 
 
     return results
