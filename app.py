@@ -44,7 +44,8 @@ def run_models(id, data):
       url = d["url"]
       results["sentiment"].append({"url": url})
       results["political"].append({"url": url})
+      
       results["sentiment"].append(sentiment.run(text))
-      # results["political"].append(political.run(text))
+      results["political"].append(political.run(text))
 
     return results
