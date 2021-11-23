@@ -13,8 +13,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # fixes tensorflow error
 # string_output = infile
 # print(string_output)#print string
 
-political_model = models.load_model(
-    'PoliticalSentiment.h5')  # load keras model
+political_model = models.load_model('./models/PoliticalSentiment.h5')  # load keras model
 
 # create class that takes clean text as a parameter
 

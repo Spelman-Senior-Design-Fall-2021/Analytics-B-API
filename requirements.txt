@@ -1,7 +1,7 @@
 flask
 gunicorn
 nltk
-numpy
+numpy==1.19.5
 pandas
 requests
 sklearn
