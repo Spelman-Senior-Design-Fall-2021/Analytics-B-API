@@ -61,10 +61,4 @@ class PoliticalBias():
 
 
 def run(data):
-    results = []
-
-    for clean_text in data:
-        prediction = PoliticalBias(clean_text)
-        results.append(prediction.pred())
-
-    return results
+    return PoliticalBias(data).pred()
