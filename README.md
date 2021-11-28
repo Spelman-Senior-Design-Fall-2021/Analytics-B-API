@@ -6,6 +6,7 @@ Live API: https://analytics-b-api-kxgii.ondigitalocean.app
 
 Firebase store: https://analytics-b-api-default-rtdb.firebaseio.com/query.json or https://analytics-b-api-default-rtdb.firebaseio.com/query/<query_id>.json
 
+
 ### Endpoints
 
 #### /query
