@@ -4,7 +4,11 @@ This is the source for a webservice than can be called to run Analytics B's mode
 
 Live API: https://analytics-b-api-kxgii.ondigitalocean.app
 
+<<<<<<< HEAD
 Firebase store: https://analytics-b-api-default-rtdb.firebaseio.com/query.json or https://analytics-b-api-default-rtdb.firebaseio.com/query/<query_id>.json
+=======
+Firebase store: https://analytics-b-api-default-rtdb.firebaseio.com/query or https://analytics-b-api-default-rtdb.firebaseio.com/query/<query_id>.json
+>>>>>>> d95f8e6bf203449512fc438e7b49a73a8a1d890b
 
 ### Endpoints
 
